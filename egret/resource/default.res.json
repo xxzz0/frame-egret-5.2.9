@@ -1,0 +1,38 @@
+{
+	"groups": [
+		{
+			"keys": "music_png,gdata_json",
+			"name": "preload"
+		},
+		{
+			"keys": "bg_jpg",
+			"name": "max"
+		},
+		{
+			"keys": "loading_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/loading/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "assets/max/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/music.png",
+			"type": "image",
+			"name": "music_png"
+		},
+		{
+			"name": "gdata_json",
+			"type": "json",
+			"url": "config/gdata.json"
+		}
+	]
+}
